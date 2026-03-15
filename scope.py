@@ -8,6 +8,3 @@ def set_globals(some_int, some_str):
     global_str = some_str
 def get_globals():
     return global_int, global_str
-
-set_globals(80, "si")
-print(get_globals())
